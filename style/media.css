@@ -100,7 +100,7 @@
 }
 
 
-@media(max-width:450px){
+@media(max-width:500px){
     .header{
         padding: 15px 17px;
     }
