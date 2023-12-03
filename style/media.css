@@ -1,0 +1,294 @@
+@media(max-width:768px) {
+    .header{
+        padding: 14px 50px;
+    }
+    .container{
+        padding: 0 50px;
+    }
+    .nav-item {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .nav-item:not(:last-child){
+        margin-right: 40px;
+    }
+    .decisions{
+        background-image: url(../img/img_768/Decisions-background.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 24px;
+   
+    }
+    .decisions-info{
+        padding: 160px 40px;
+    }
+    .decisions-title{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 16px;
+    }
+    .decisions-text{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 60px;
+    }
+
+    .company-crads{
+        flex-wrap: wrap;
+    }
+    .company-card-info{
+        gap: 47px;
+        padding: 40px;
+    }
+    .company-card-one{
+        height: 650px;
+    }
+    .stage__card_img {
+        width: 100%;
+    }
+    .stage_cards{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap:38px;
+    }
+    .stage__card_text{
+        margin-bottom: 25px;
+    }
+    .question_list{
+        flex-wrap: wrap;
+    }
+    .footer{
+        padding-right: 140px;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .footer_nav{
+        display: none;
+    }
+    .footer_content_item:last-child {
+        display: none;
+    }
+    .form_button{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(max-width:1190px){
+
+    .company-crads{
+        flex-wrap: wrap;
+    }
+    
+    .company-card-one{
+        height: 690px;
+    }
+    .stage_cards{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap:20px;
+    }
+    .footer_content_item:last-child{
+        display: none;
+    }
+    .question_list{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media(max-width:320px){
+    .header{
+        padding: 15px 17px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .nav_item_mob{
+        display: none;
+    }
+    .nav-item:not(:last-child){
+        margin-right: 10px;
+    }
+
+    .decisions{
+        background-image: url(../img/img_320/Decisions-background.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 24px;
+   
+    }
+    .decisions-title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .decisions-info{
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .decisions-butt{
+        padding: 13px 28px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .decisions-text{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 32px;
+    }
+    .company {
+        margin-bottom: 60px;
+    }
+    .company-title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .card-text{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .company-card-back-mob{
+        display: block;
+    }
+    .company-card-one{
+        background-image: none;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .company-card-info{
+        flex-wrap: wrap;
+        background-color: white;
+        padding: 0;
+        gap:12px;
+    }
+    .company-card-text{
+        max-width: 433px;
+        font-family:"Montserrat";
+        font-weight: 400;
+        font-size: 14px;
+        line-height:28px;
+        color:black;
+    }
+    .company-card-butt{
+        color: rgba(255, 153, 0, 1);
+        padding: 12px 44px;
+        border: 2px solid rgba(255, 153, 0, 1);
+        font-size: 12px;
+    }
+    .company-card-item>img{
+        width: 69px;
+    }
+    .company-card-item {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap:12px;
+        padding: 0;
+        border: none;
+
+    }
+    .card-title {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 4px;
+    }
+    .stage_title {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    .stage__card_title{
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 8px;
+        color:rgba(0, 0, 0, 1)
+    }
+    .company-text {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    .stage_butt_one {
+        padding: 12px 40px 12px 40px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin: 0;
+     
+    }
+    .stage_butt_two {
+        padding: 12px 32px 12px 32px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    .stage__card_but{
+        display: inline-flex;
+        gap:10px;
+    }
+    .question_title{
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .question_item {
+        padding: 0;
+        border: none;
+        border-radius: none;
+    }
+    .question_item_title {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 5px;
+}
+    .question_item_text {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .form_item {
+        padding: 14px 69px 14px 20px;
+    }
+    .form_title{
+    font-size: 24px;
+    line-height: 29px;
+    }
+    .form_button{
+        flex-direction: column;
+    }
+    .footer{
+        padding-right: 0px;
+    }
+    .footer_icon_web{
+        display: flex;
+       justify-content: center;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+}
