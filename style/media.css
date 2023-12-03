@@ -160,6 +160,7 @@
         display: flex;
         flex-wrap: wrap;
         height: auto;
+        justify-content: center;
     }
     .company-card-info{
         flex-wrap: wrap;
@@ -182,7 +183,12 @@
         font-size: 12px;
     }
     .company-card_link{
-        color:black;
+        padding: 12px 44px;
+        color:rgba(255, 153, 0, 1);
+        font-family:"Montserrat";
+        font-weight: 700;
+        font-size: 12px;
+        line-height:14px;
     }
     .company-card-item>img{
         width: 69px;
