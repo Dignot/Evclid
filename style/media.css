@@ -100,7 +100,9 @@
     .question_list{
         flex-wrap: wrap;
     }
-
+    .footer_content{
+        justify-content: space-around
+    }
 }
 
 
