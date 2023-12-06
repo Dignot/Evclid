@@ -76,16 +76,20 @@
 }
 
 
-@media(max-width:1190px){
+@media(max-width:1300px){
+
+   
 
     .company-crads{
         flex-wrap: wrap;
+        justify-content: center;
     }
     
     .company-card-one{
         height: 690px;
     }
     .stage_cards{
+        align-items: center;
         flex-wrap: wrap;
         flex-direction: column-reverse;
         gap:20px;

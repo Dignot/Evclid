@@ -443,6 +443,7 @@ body{
     padding: 69px;
     border:  1px solid rgba(202, 202, 202, 1);
     border-radius: 32px;
+    max-width: 1149px;
 }
 
 .question_item_title{
@@ -458,8 +459,12 @@ body{
     margin: 0;
     font-family:"Montserrat";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 32px;
+}
+
+.footer_content{
+    justify-content: space-around;
 }
 
 /* question end*/
